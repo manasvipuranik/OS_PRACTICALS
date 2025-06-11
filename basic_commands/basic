@@ -1,0 +1,52 @@
+mkdir Manasvi
+cd Manasvi
+mkdir os
+cd os
+vi abc.txt
+mkdir oslab
+mv abc.txt oslab
+cd oslab
+cp abc.txt os
+cd ..
+cp oslab/abc.txt os
+cp oslab/os/abc.txt
+cd oslab
+mkdir prac1
+cp abc.txt prac1
+cat abc.txt
+ls
+ls -h
+ls -r
+ls -R
+
+-----------------------------------------------
+
+cd ..
+mkdir SIT
+cd SIT
+mkdir OS
+cd OS
+mkdir OSLAB
+cd OSLAB
+mkdir SEM4
+cd SEM4
+cd ..
+vi test.txt
+cd SEM4
+vi test2.txt
+cd ..
+mv test.txt SEM4
+cd SEM4
+cp test2.txt OSLAB
+cd ..
+cp SEM4/OSLAB test2.txt
+cd ..
+cd SEM4
+rm test.txt
+rm test2.txt
+rm OSLAB
+cd ..
+rmdir SEM4
+rm test2.txt
+cd ..
+rmdir OSLAB
